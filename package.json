@@ -1,0 +1,20 @@
+{
+    "name": "vite-nodecg-asset-loading-repro",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "vite"
+    },
+    "dependencies": {
+        "vite-plugin-nodecg": "2.0.0-rc3"
+    },
+    "nodecg": {
+        "compatibleRange": "^1.7.0 || ^2.0.0",
+        "graphics": [
+            {
+                "file": "index.html",
+                "width": 1920,
+                "height": 1080
+            }
+        ]
+    }
+}
